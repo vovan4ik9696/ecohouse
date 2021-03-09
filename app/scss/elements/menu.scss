@@ -1,8 +1,11 @@
 .menu {
+  display: flex;
+  
   font-size: 23px;
 
-  &__list {
+  ul.menu__list {
     display: flex;
+    margin-left: auto;
   }
 
   &__item {
@@ -19,6 +22,11 @@
     &--active {
       font-weight: 700;
     }
+  }
+
+  &--header {
+    padding: 47px 30px;
+    margin-left: auto;
   }
 
   &--footer {

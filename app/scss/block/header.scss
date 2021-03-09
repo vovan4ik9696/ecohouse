@@ -1,28 +1,23 @@
 .header {
-  position: relative;
-
   min-height: 100vh;
-  padding-bottom: 90px;
 
   background-color: #0F0F0F;
 
   &__inner {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 26px;
   }
 
-  &__top {
-    display: flex;
-    justify-content: space-between;
+  &__sidebar {
+    padding: 30px 40px 0;
   }
+
+
 
   &__social {
     position: relative;
 
-    width: 100%;
     display: flex;
+    margin-top: 330px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -31,7 +26,7 @@
       content: '';
 
       position: absolute;
-      top: 110px;
+      top: 180px;
 
       width: 1px;
       height: 155px;
@@ -43,7 +38,7 @@
       content: '';
 
       position: absolute;
-      bottom: 110px;
+      bottom: 180px;
 
       width: 1px;
       height: 155px;
@@ -61,18 +56,26 @@
     }
   }
 
-  &__img {
-    width: 1675px;
-    height: 766px;
+  &__box {
+    position: relative;
+
+    width: 100%;
+  }
+
+  &__top {
+    padding: 385px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
   }
 
   &__content {
     position: absolute;
     top: 0;
-    left: 245px;
+    left: 0;
 
+    height: 100vh;
     width: 575px;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,7 +83,6 @@
     padding-right: 70px;
 
     background: rgba(47, 47, 47, .7);
-    ;
   }
 
   &__title {
@@ -102,6 +104,7 @@
 
   &__btn {
     width: 180px;
+    margin-right: 20px;
 
     transition: background-color 0.3s;
 

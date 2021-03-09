@@ -10,73 +10,91 @@
 
 <body>
 
+
   <header class="header">
     <div class="wrapper">
       <div class="header__inner">
-        <a class="logo" href="#">
-          <img src="images/logo.png" alt="Логотип">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a class="menu__link menu__link--active" href="#">Главная</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">О нас</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Проекты</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Услуги</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+        <aside class="header__sidebar">
+
+          <a class="logo" href="#">
+            <img src="images/logo.png" alt="Логотип">
+          </a>
+
+          <div class="header__social">
+            <a class="header__social-link" href="#">
+              <svg class="social">
+                <use xlink:href="images/sprite.svg#inst"></use>
+              </svg>
+            </a>
+            <a class="header__social-link" href="#">
+              <svg class="social">
+                <use xlink:href="images/sprite.svg#fb"></use>
+              </svg>
+            </a>
+            <a class="header__social-link" href="#">
+              <svg class="social">
+                <use xlink:href="images/sprite.svg#vk"></use>
+              </svg>
+            </a>
+          </div>
+
+        </aside>
+
+        <div class="header__box">
+
+          <nav class="menu menu--header">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link menu__link--active" href="#">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">О нас</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Проекты</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__top" style="background-image: url('images/header-bg.jpg');">
+
+            <div class="header__content">
+              <h2 class="header__title">строим мечту</h2>
+              <div class="header__text">
+                <p>
+                  Строительство загородных домов
+                </p>
+                <p>
+                  в скандинавском стиле
+                </p>
+                <p>
+                  под ключ
+                </p>
+              </div>
+              <div class="header__links">
+                <a class="header__btn btn" href="#">Подробнее</a>
+                <a class="header__btn btn" href="#">Заказать звонок</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
 
       </div>
 
-      <div class="header__top">
-        <div class="header__social">
-          <a class="header__social-link" href="#">
-            <svg class="social">
-              <use xlink:href="images/sprite.svg#inst"></use>
-            </svg>
-          </a>
-          <a class="header__social-link" href="#">
-            <svg class="social">
-              <use xlink:href="images/sprite.svg#fb"></use>
-            </svg>
-          </a>
-          <a class="header__social-link" href="#">
-            <svg class="social">
-              <use xlink:href="images/sprite.svg#vk"></use>
-            </svg>
-          </a>
-        </div>
-        <img class="header__img" src="images/header-bg.jpg" alt="Фоновое изображение">
-      </div>
 
-      <div class="header__content">
-        <h2 class="header__title">строим мечту</h2>
-        <div class="header__text">
-          <p>
-            Строительство загородных домов
-          </p>
-          <p>
-            в скандинавском стиле
-          </p>
-          <p>
-            под ключ
-          </p>
-        </div>
-        <div class="header__links">
-          <a class="header__btn btn" href="#">Подробнее</a>
-          <a class="header__btn btn" href="#">Заказать звонок</a>
-        </div>
-      </div>
+
+
+
 
   </header>
 
