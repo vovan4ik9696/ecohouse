@@ -13,9 +13,9 @@
   <header class="header">
     <div class="wrapper">
       <div class="header__inner">
-
-        <img class="logo" src="images/logo.png" alt="Логотип">
-
+        <a class="logo" href="#">
+          <img src="images/logo.png" alt="Логотип">
+        </a>
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
@@ -40,35 +40,43 @@
 
       <div class="header__top">
         <div class="header__social">
-          <svg class="header__social-item social">
-            <use xlink:href="images/sprite.svg#instagram"></use>
-          </svg>
-
-          <svg class="header__social-item social">
-            <use xlink:href="images/sprite.svg#facebook"></use>
-          </svg>
-
-          <svg class="header__social-item social">
-            <use xlink:href="images/sprite.svg#vk"></use>
-          </svg>
+          <a class="header__social-link" href="#">
+            <svg class="social">
+              <use xlink:href="images/sprite.svg#inst"></use>
+            </svg>
+          </a>
+          <a class="header__social-link" href="#">
+            <svg class="social">
+              <use xlink:href="images/sprite.svg#fb"></use>
+            </svg>
+          </a>
+          <a class="header__social-link" href="#">
+            <svg class="social">
+              <use xlink:href="images/sprite.svg#vk"></use>
+            </svg>
+          </a>
         </div>
-        <img class="header__img" src="images/header-bg.jpg" alt="Фоновая картинка">
+        <img class="header__img" src="images/header-bg.jpg" alt="Фоновое изображение">
       </div>
 
-    </div>
-
-    <div class="header__content">
-      <h2 class="header__title">строим мечту</h2>
-      <p class="header__text">
-        Строительство загородных домов
-        в скандинавском стиле
-        под ключ
-      </p>
-      <div class="header__nav">
-        <a class="header__btn btn" href="#">Подробнее</a>
-        <a class="header__btn btn" href="#">Заказать звонок</a>
+      <div class="header__content">
+        <h2 class="header__title">строим мечту</h2>
+        <div class="header__text">
+          <p>
+            Строительство загородных домов
+          </p>
+          <p>
+            в скандинавском стиле
+          </p>
+          <p>
+            под ключ
+          </p>
+        </div>
+        <div class="header__links">
+          <a class="header__btn btn" href="#">Подробнее</a>
+          <a class="header__btn btn" href="#">Заказать звонок</a>
+        </div>
       </div>
-    </div>
 
   </header>
 

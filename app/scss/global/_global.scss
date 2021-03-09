@@ -11,13 +11,9 @@ body {
 
 .social {
   width: 36px;
-  height: 36px;
-
-  cursor: pointer;
-
-  fill: red;
+  height: 38px;
 
   &:hover {
-    
+    stroke: red;
   }
 }
