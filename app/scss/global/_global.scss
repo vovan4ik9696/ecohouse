@@ -1,0 +1,23 @@
+body {
+  @extend %rway-400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.social {
+  width: 36px;
+  height: 36px;
+
+  cursor: pointer;
+
+  fill: red;
+
+  &:hover {
+    
+  }
+}

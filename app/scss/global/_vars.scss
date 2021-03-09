@@ -1,0 +1,52 @@
+$link: #fff;
+
+%rway-100 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+%rway-400 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+%rway-500 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+%rway-600 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+%rway-700 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+%rway-800 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+%link-actions {
+  border-bottom: 1px solid transparent;
+
+  & {
+    transition: all .3s;
+  }
+
+  &:hover {
+    text-shadow: 0 0 .45px $link, 0 0 .45px $link;
+    border-color: $link;
+  }
+
+  &:active {
+    color: rgb(145, 127, 127);
+  }
+
+  &:focus {
+    outline: #7b7b7b solid 2px;
+  }
+}
