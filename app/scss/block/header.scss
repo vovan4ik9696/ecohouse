@@ -106,7 +106,7 @@
     transition: background-color 0.3s;
 
     &:hover {
-      background-color: #CA1D1D;
+      background-color: $accent;
     }
   }
 }

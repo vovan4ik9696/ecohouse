@@ -9,11 +9,27 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  max-width: 1675px;
+  margin-left: auto;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
 .social {
   width: 36px;
   height: 38px;
 
   &:hover {
-    stroke: red;
+    stroke: $accent;
   }
 }

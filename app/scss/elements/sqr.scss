@@ -1,0 +1,17 @@
+.sqr {
+  position: relative;
+
+  &::before {
+    content: '';
+
+    position: absolute;
+
+    left: 0;
+    top: 57px;
+
+    width: 182px;
+    height: 68px;
+
+    background-color: $accent;
+  }
+}
