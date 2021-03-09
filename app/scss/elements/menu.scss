@@ -1,0 +1,32 @@
+.menu {
+  font-size: 23px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    &+& {
+      margin-left: 44px;
+    }
+  }
+
+  &__link {
+    color: #fff;
+
+    @extend %link-actions;
+
+    &--active {
+      font-weight: 700;
+    }
+  }
+
+  &--footer {
+    font-size: 18px;
+    font-weight: 400;
+
+    .menu__item+.menu__item {
+      margin-left: 25px;
+    }
+  }
+}

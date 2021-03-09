@@ -110,27 +110,3 @@
     }
   }
 }
-
-.menu {
-  font-size: 23px;
-
-  &__list {
-    display: flex;
-  }
-
-  &__item {
-    &+& {
-      margin-left: 44px;
-    }
-  }
-
-  &__link {
-    color: #fff;
-
-    @extend %link-actions;
-
-    &--active {
-      font-weight: 700;
-    }
-  }
-}
